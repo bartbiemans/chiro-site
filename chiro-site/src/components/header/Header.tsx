@@ -1,25 +1,26 @@
 import React from "react";
-import Image from 'react-bootstrap/Image'
-import  { Navbar, Nav } from "react-bootstrap";
+import {Nav, Navbar} from "react-bootstrap";
+import Image from "react-bootstrap/Image";
 
 export const Header = () => {
     return (
-        <div>
-            <Image src={'../../../wide-image.jpg'} fluid/>
-            <Navbar sticky={"top"} bg="light">
-                <Navbar.Brand>Chiro sint-jozef jongens</Navbar.Brand>
+        <>
+            <Navbar collapseOnSelect expand="lg" fixed={"top"} bg="light">
+                <Navbar.Brand href={'/'}>Chiro sint-jozef jongens</Navbar.Brand>
+                <Navbar.Toggle aria-controls="responsive-navbar-nav"/>
                 <Navbar.Collapse id="basic-navbar-nav" className={"justify-content-end"}>
                     <Nav>
-                        <Nav.Link href='#'>Wat is chiro</Nav.Link>
+                        <Nav.Link href='/chiro'>Wat is chiro</Nav.Link>
                         <Nav.Link href='#'>Brieven</Nav.Link>
-                        <Nav.Link href='#'>Leidingsploeg</Nav.Link>
-                        <Nav.Link href='#'>Jeneveravond</Nav.Link>
-                        <Nav.Link href='#'>Inschrijven</Nav.Link>
-                        <Nav.Link href='#'>Wat is chiro</Nav.Link>
-                        <Nav.Link href='#'>Verhuur</Nav.Link>
+                        <Nav.Link href='#'>Maandprogramma's</Nav.Link>
+                        <Nav.Link href='/leidingsploeg'>Leidingsploeg</Nav.Link>
+                        <Nav.Link href='/jeneveravond'>Jeneveravond</Nav.Link>
+                        <Nav.Link href='/inschrijven'>Inschrijven</Nav.Link>
+                        <Nav.Link href='/verhuur'>Verhuur</Nav.Link>
                     </Nav>
                 </Navbar.Collapse>
             </Navbar>
-        </div>
+            <Image src={'../../../../wide-image.jpg'} fluid/>
+        </>
     )
 }
