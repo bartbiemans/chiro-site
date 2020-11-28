@@ -1,6 +1,5 @@
 import Card from "react-bootstrap/Card";
 import React from "react";
-import {ListGroup, ListGroupItem} from "react-bootstrap";
 
 interface Props {
     image: string;

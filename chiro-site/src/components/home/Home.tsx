@@ -1,7 +1,6 @@
 import React from "react";
 import {Col, Row} from "react-bootstrap";
 import {Announcement} from "../announcement/Announcement";
-import Image from "react-bootstrap/Image";
 
 export const Home = () => {
     return (
@@ -41,7 +40,7 @@ export const Home = () => {
                     </Col>
                     <Col lg={1}/>
                     <Col lg={3} sm={0} className="pt-5 d-none d-lg-block">
-                        <iframe
+                        <iframe title={'facebook'}
                             src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2FChiro-Sint-Jozef-Jongens-Merksem-143531585754896%2F&tabs=timeline&width=500&height=500&small_header=true&adapt_container_width=true&hide_cover=true&show_facepile=true&appId=2817641565220366"
                             width="500" height="600" style={{border: 'none', overflow: 'hidden'}} frameBorder="0"
                             allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"/>
