@@ -10,8 +10,9 @@ import {JeneverAvond} from "./main/jeneveravond/JeneverAvond";
 import {Chiro} from "./main/chiro/Chiro";
 import {Inschrijven} from "./main/inschrijven/Inschrijven";
 import {Verhuur} from "./main/verhuur/Verhuur";
-import {Maandprogramma} from "./main/maandprogramma/Maandprogramma";
+import {MaandprogrammaUpload} from "./main/maandprogramma/MaandprogrammaUpload";
 import {Brieven} from "./main/brieven/brieven";
+import {MaandprogrammaDownload} from "./main/maandprogramma/MaandprogrammaDownload";
 
 
 const browserHistory = createBrowserHistory();
@@ -38,7 +39,8 @@ const renderRouting = () => {
                     <Route exact path={'/jeneveravond'} component={JeneverAvond}/>
                     <Route exact path={'/inschrijven'} component={Inschrijven}/>
                     <Route exact path={'/verhuur'} component={Verhuur}/>
-                    <Route exact path={'/maandprogramma'} component={Maandprogramma}/>
+                    <Route exact path={'/upload'} component={MaandprogrammaUpload}/>
+                    <Route exact path={'/maandprogramma'} component={MaandprogrammaDownload}/>
                     <Route exact path={'/brieven'} component={Brieven}/>
                     <Route exact path={'/'} component={Home}/>
                 </Switch>

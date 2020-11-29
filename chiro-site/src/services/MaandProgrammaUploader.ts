@@ -12,7 +12,8 @@ const uploadClient = new S3(config)
 
 export const uploadFile = (event: React.ChangeEvent<HTMLInputElement>) => {
     const files = event.target.files;
-    if (files) {
-        uploadClient.uploadFile(files.item(0),'test').then((data: any) => console.log(data))
+    if (files && files.item(0)) {
+        // @ts-ignore
+        uploadClient.uploadFile(files.item(0), files.item(0).name.split('.')[0])
     }
 }
