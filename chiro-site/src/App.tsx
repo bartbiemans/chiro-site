@@ -12,7 +12,6 @@ import {Inschrijven} from "./main/inschrijven/Inschrijven";
 import {Verhuur} from "./main/verhuur/Verhuur";
 import {MaandprogrammaUpload} from "./main/maandprogramma/MaandprogrammaUpload";
 import {Brieven} from "./main/brieven/brieven";
-import {MaandprogrammaDownload} from "./main/maandprogramma/MaandprogrammaDownload";
 import {MaandProgrammaContainer} from "./main/maandprogramma/MaandProgrammaDownloadContainer";
 
 

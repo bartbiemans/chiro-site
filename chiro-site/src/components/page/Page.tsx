@@ -8,7 +8,7 @@ interface Props {
 
 export const Page = (props: Props) => {
     return (
-        <Row className={'d-flex justify-content-center pt-2'}>
+        <Row className={'d-flex justify-content-center pt-2 ml-2 mr-2'}>
             <Col lg={8}>
                 <h3 className={'pt-2 text-success'}><b>{props.title}</b></h3>
                 {props.content.map(item => {

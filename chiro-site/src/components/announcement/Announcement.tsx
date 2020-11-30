@@ -9,7 +9,7 @@ interface Props{
 
 export const Announcement = (props: Props) => {
     return (
-       <Row className={'justify-content-left ml-5 mt-5 mb-5'}>
+       <Row className={'justify-content-left ml-lg-5 mt-5 mb-5'}>
            <Col className={' announcement-card'}>
                <div  style={{textAlign:'left'}}>
                    {props.title && <div><b className={'text-success'}>{props.title}</b> </div>}

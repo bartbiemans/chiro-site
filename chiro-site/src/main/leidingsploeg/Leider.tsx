@@ -12,7 +12,7 @@ interface Props {
 export const Leider = (props: Props) => {
     return (
         <Card style={{width: '18rem'}}>
-            <Card.Img variant="top" src="../../profielfoto.jpg"/>
+            <Card.Img variant="top" src={props.image}/>
             <Card.Body>
                 <Card.Title>{props.name}</Card.Title>
                 <Card.Text>

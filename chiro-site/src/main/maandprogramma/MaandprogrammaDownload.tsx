@@ -4,6 +4,7 @@ import {faArrowRight} from "@fortawesome/free-solid-svg-icons";
 import React from "react";
 import {Page} from "../../components/page/Page";
 import content from 'src/resources/maandprogrammaDownload.json'
+import Image from "react-bootstrap/Image";
 
 interface Props {
     onDownloadFile: (title: string) => void;
@@ -14,6 +15,9 @@ export const MaandprogrammaDownload = (props: Props) => {
     const afdelingen = ['sloebers', 'bengels', 'rakkers', 'toppers', 'kerels', 'aspi']
     return (
         <>
+            <div>
+                <Image src={'../../../../maandProgramma-banner.jpg'} fluid style={{width:'100%'}}/>
+            </div>
             <Page title={'Maandprogramma'} content={content}/>
             {afdelingen.map(x => {
                 return (

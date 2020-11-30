@@ -5,6 +5,7 @@ import content from 'src/resources/Brieven.json'
 import {downloadFile} from "../../services/FileDownloader";
 import { faArrowRight } from '@fortawesome/free-solid-svg-icons'
 import {Col, Row } from "react-bootstrap";
+import Image from "react-bootstrap/Image";
 
 
 const brieven: string[] = ['test.pdf','7015_binaryContent.pdf']
@@ -12,6 +13,9 @@ const brieven: string[] = ['test.pdf','7015_binaryContent.pdf']
 export const Brieven = () => {
     return (
         <>
+            <div>
+                <Image src={'../../../../brieven-banner.jpg'} fluid style={{width:'100%'}}/>
+            </div>
             <Page content={content} title={'Brieven'}/>
             {brieven.map(x => {
                 return(

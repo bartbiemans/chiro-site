@@ -1,10 +1,15 @@
 import React from "react";
 import {Col, Row} from "react-bootstrap";
 import {Announcement} from "../announcement/Announcement";
+import Image from "react-bootstrap/Image";
 
 export const Home = () => {
     return (
             <div >
+                <div style={{position:'relative',textAlign:'center'}}>
+                    <Image src={'../../../../groepsfoto.jpg'} fluid style={{width:'100%'}}/>
+                    <h1 className={'text-success d-none d-lg-block'} style={{position:'absolute',top:'15%',left:'50%',transform:'translate(-50%, -50%)'}}>Chiro Sint-Jozef jongens merksem</h1>
+                </div>
                 <Row>
                     <Col className={'justify-content-center'}>
                         <h3 className={'text-center pt-2 text-success'}><b>De beste chiro uit merksem en omstreken!</b>
@@ -18,7 +23,7 @@ export const Home = () => {
                     </Col>
                 </Row>
                 <Row>
-                    <Col lg={7}>
+                    <Col lg={7} sm={10}>
                         <Announcement title={'Het is genoeg geweest'}
                                       body={'De komende zondagen gaan we leiding geven van 14u-18u. Dit enkel voor de jongste 3 afdelingen, omdat het verboden is om dat voor de oudere groepen te doen.'}
                                       date={new Date()}/>

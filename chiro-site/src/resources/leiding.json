@@ -1,15 +1,15 @@
 {
   "sloebers": [
     {
-      "image": "../../resources/profielfoto.jpg",
+      "image": "../../profielfoto.jpg",
       "name": "Bart Biemans",
       "bio": "Bart is al 17 jaar in onze chiro. Dit is zijn 5e jaar in de chiro, en zijn 2e als groepsleider. In zijn vrije tijd speelt hij graag tafeltennis, of gaat hij lopen.",
       "gsm": "0473707986",
       "mail": "biemansbart@gmail.com"
     }, {
-      "image": "../../resources/profielfoto.jpg",
+      "image": "../../fotoZeb.jpg",
       "name": "Bart Biemans",
-      "bio": "Bart is al 17 jaar in onze chiro. Dit is zijn 5e jaar in de chiro, en zijn 2e als groepsleider. In zijn vrije tijd speelt hij graag tafeltennis, of gaat hij lopen.",
+      "bio": "Zeb stinkt naar kak",
       "gsm": "0473707986",
       "mail": "biemansbart@gmail.com"
     }

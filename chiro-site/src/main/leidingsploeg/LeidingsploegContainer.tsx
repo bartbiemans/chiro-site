@@ -5,6 +5,7 @@ import leiding from '../../resources/leiding.json'
 import {Leider} from "./Leider";
 import {Page} from "../../components/page/Page";
 import content from '../../resources/leidingsploeg.json'
+import Image from "react-bootstrap/Image";
 
 export const LeidingsploegContainer = () => {
 
@@ -17,7 +18,7 @@ export const LeidingsploegContainer = () => {
                     </Col>
 
                 </Row>
-                <Row className={'d-flex justify-content-left pt-5 pl-5'}>
+                <Row className={'d-flex justify-content-left pt-5'}>
                 {leiding.map((leider, index) => {
                     return (
                         <Col className={'d-flex justify-content-center pb-4'} lg={4} key={index}>
@@ -33,6 +34,9 @@ export const LeidingsploegContainer = () => {
 
     return (
         <>
+            <div>
+                <Image src={'../../../../leidingsfoto.jpg'} fluid style={{width:'100%'}}/>
+            </div>
             <Page title={'De leidingsploeg'} content={content}/>
                 {renderAfdeling('Sloeber leiding :',leiding.sloebers)}
                 {renderAfdeling('Bengel leiding :',leiding.sloebers)}

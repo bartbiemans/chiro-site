@@ -1,6 +1,5 @@
 import React from "react";
 import {Nav, Navbar} from "react-bootstrap";
-import Image from "react-bootstrap/Image";
 
 export const Header = () => {
     return (
@@ -20,7 +19,6 @@ export const Header = () => {
                     </Nav>
                 </Navbar.Collapse>
             </Navbar>
-            <Image src={'../../../../wide-image.jpg'} fluid/>
         </>
     )
 }
