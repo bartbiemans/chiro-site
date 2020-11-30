@@ -13,6 +13,7 @@ import {Verhuur} from "./main/verhuur/Verhuur";
 import {MaandprogrammaUpload} from "./main/maandprogramma/MaandprogrammaUpload";
 import {Brieven} from "./main/brieven/brieven";
 import {MaandprogrammaDownload} from "./main/maandprogramma/MaandprogrammaDownload";
+import {MaandProgrammaContainer} from "./main/maandprogramma/MaandProgrammaDownloadContainer";
 
 
 const browserHistory = createBrowserHistory();
@@ -40,7 +41,7 @@ const renderRouting = () => {
                     <Route exact path={'/inschrijven'} component={Inschrijven}/>
                     <Route exact path={'/verhuur'} component={Verhuur}/>
                     <Route exact path={'/upload'} component={MaandprogrammaUpload}/>
-                    <Route exact path={'/maandprogramma'} component={MaandprogrammaDownload}/>
+                    <Route exact path={'/maandprogramma'} component={MaandProgrammaContainer}/>
                     <Route exact path={'/brieven'} component={Brieven}/>
                     <Route exact path={'/'} component={Home}/>
                 </Switch>
