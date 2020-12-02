@@ -10,10 +10,7 @@ const config = {
 
 const uploadClient = new S3(config)
 
-export const uploadFile = (event: React.ChangeEvent<HTMLInputElement>) => {
-    const files = event.target.files;
-    if (files && files.item(0)) {
-        // @ts-ignore
-        uploadClient.uploadFile(files.item(0), files.item(0).name.split('.')[0])
-    }
+export const uploadFile = (file: File, fileName: string) => {
+    uploadClient.uploadFile(file, fileName)
+    alert('Maandprogramma is geupload')
 }
