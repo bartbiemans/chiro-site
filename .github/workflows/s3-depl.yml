@@ -22,3 +22,5 @@ jobs:
       - name: Deploy app build to S3 bucket
         working-directory: ./chiro-site
         run: aws s3 sync ./build/ s3://chiro-site --delete
+      - name: Invalidate cache
+        run: aws cloudfront create-invalidation --distribution-id $DISTRIBUTION_PRODUCTION_ID --paths /index.html
