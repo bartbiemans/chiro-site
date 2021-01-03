@@ -1,12 +1,12 @@
 {
   "sloebers": [
     {
-      "image": "../../profielfoto.jpg",
+      "image": "../../fred.jpg",
       "name": "Frédéric Duquenne",
       "gsm": "0478067340",
       "mail": "frederic.d@..."
     }, {
-      "image": "../../fotoZeb.jpg",
+      "image": "../../zeb.jpg",
       "name": "Zeb Mertens",
       "gsm": "0478067340",
       "mail": "zeb.m@..."
@@ -14,12 +14,12 @@
   ],
   "bengels": [
     {
-      "image": "../../profielfoto.jpg",
+      "image": "../../bam.jpg",
       "name": "Bart Biemans",
       "gsm": "0473707986",
       "mail": "biemansbart@gmail.com"
     }, {
-      "image": "../../fotoZeb.jpg",
+      "image": "../../jay.jpg",
       "name": "Jarne Jacobs",
       "gsm": "0485756450",
       "mail": "jarne.j@..."
@@ -27,17 +27,17 @@
   ],
   "rakkers": [
     {
-      "image": "../../profielfoto.jpg",
+      "image": "../../felix.jpg",
       "name": "Felix Anthonissen",
       "gsm": "0492684865",
       "mail": "felix.a@..."
     }, {
-      "image": "../../fotoZeb.jpg",
+      "image": "../../tuur.jpg",
       "name": "Tuur Wuyts",
       "gsm": "0468274323",
       "mail": "tuur.w@..."
     },{
-      "image": "../../fotoZeb.jpg",
+      "image": "../../flor.jpg",
       "name": "Flor Van Hassel",
       "gsm": "0468274323",
       "mail": "tuur.w@..."
@@ -45,12 +45,12 @@
   ],
   "toppers": [
     {
-      "image": "../../profielfoto.jpg",
+      "image": "../../wannes.jpg",
       "name": "Wannes Dierickx",
       "gsm": "0497755057",
       "mail": "wannes.d@..."
     }, {
-      "image": "../../fotoZeb.jpg",
+      "image": "../../thiemen.jpg",
       "name": "Thiemen Seeuws",
       "gsm": "0468287222",
       "mail": "thiemen.s@..."
@@ -58,12 +58,12 @@
   ],
   "kerels": [
     {
-      "image": "../../profielfoto.jpg",
+      "image": "../../florian.jpg",
       "name": "Florian Deboosere",
       "gsm": "0468151716",
       "mail": "florian.db@..."
     }, {
-      "image": "../../fotoZeb.jpg",
+      "image": "../../cedric.jpg",
       "name": "Cedric van Zeebroeck",
       "gsm": "0479725578",
       "mail": "cedric.c@..."
@@ -71,12 +71,12 @@
   ],
   "aspiranten": [
     {
-      "image": "../../profielfoto.jpg",
+      "image": "../../witse.jpg",
       "name": "Witse Delanouije",
       "gsm": "0471797901",
       "mail": "witse.w@..."
     }, {
-      "image": "../../fotoZeb.jpg",
+      "image": "../../bert.jpg",
       "name": "Bert van de Weyer",
       "gsm": "0470311886",
       "mail": "bert.vdw@..."
@@ -84,12 +84,12 @@
   ],
   "groepsleiding": [
     {
-      "image": "../../profielfoto.jpg",
+      "image": "../../bam.jpg",
       "name": "Bart Biemans",
       "gsm": "0473707986",
       "mail": "biemansbart@gmail.com"
     },  {
-      "image": "../../profielfoto.jpg",
+      "image": "../../wannes.jpg",
       "name": "Wannes Dierickx",
       "gsm": "0497755057",
       "mail": "wannes.d@..."
