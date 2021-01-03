@@ -16,6 +16,7 @@ jobs:
           aws-access-key-id: ${{ secrets.AWS_ACCESS_KEY_ID }}
           aws-secret-access-key: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
           aws-region: ${{ secrets.AWS_REGION }}
+          aws-distirbution-id : ${{ secrets.DISTRIBUTION_PRODUCTION_ID }}
       - name: Build React App
         working-directory: ./chiro-site
         run: npm install && npm run build
@@ -23,4 +24,4 @@ jobs:
         working-directory: ./chiro-site
         run: aws s3 sync ./build/ s3://chiro-site --delete
       - name: Invalidate cache
-        run: aws cloudfront create-invalidation --distribution-id ${{ secrets.DISTRIBUTION_PRODUCTION_ID }} --paths /index.html
+        run: aws cloudfront create-invalidation --distribution-id aws-distirbution-id --paths /index.html
