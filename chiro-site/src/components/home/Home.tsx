@@ -14,7 +14,7 @@ export const Home = () => {
             </div>
             <Row>
                 <Col className={'justify-content-center'}>
-                    <h3 className={'text-center pt-2 text-success'}><b>De beste chiro uit merksem en omstreken!</b>
+                    <h3 className={'text-center pt-2 text-success'}><b>De beste chiro uit Merksem en omstreken!</b>
                     </h3>
                 </Col>
             </Row>

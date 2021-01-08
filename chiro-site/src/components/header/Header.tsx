@@ -9,7 +9,7 @@ export const Header = () => {
                 <Navbar.Toggle aria-controls="responsive-navbar-nav"/>
                 <Navbar.Collapse id="basic-navbar-nav" className={"justify-content-end"}>
                     <Nav>
-                        <Nav.Link href='/chiro'>Wat is chiro</Nav.Link>
+                        <Nav.Link href='/chiro'>Wat is Chiro?</Nav.Link>
                         <Nav.Link href='/brieven'>Brieven</Nav.Link>
                         <Nav.Link href='/maandprogramma'>Maandprogramma's</Nav.Link>
                         <Nav.Link href='/leidingsploeg'>Leidingsploeg</Nav.Link>
