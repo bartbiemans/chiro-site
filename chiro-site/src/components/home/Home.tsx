@@ -31,8 +31,8 @@ export const Home = () => {
                                   date={new Date(2020,12,30)}/>
                     <Announcement title={'Corona maatregelen'}
                                   body={'Zoals u weet is het leiding geven tijdelijk beperkt door de COVID maatregelen. Concreet betekent dit voor ons dat enkel de ' +
-                                  '3 jongste afdelingen chiro hebben. De oudste leden hebben jammer genoeg nog geen chiro. Meer info hierover volgt eens de maatregelen zijn aangepast. '}
-                                  date={new Date()}/>
+                                  '3 oudste afdelingen chiro hebben. De jongste leden hebben jammer genoeg - geen chiro.Ook vragen wij om ten alle tijde een mondmasker te dragen, en de social distancing te respecteren. '}
+                                  date={new Date(2021,1,6)}/>
                 </Col>
                 <Col lg={1}/>
                 <Col lg={3} sm={0} className="pt-5 d-none d-lg-block">
