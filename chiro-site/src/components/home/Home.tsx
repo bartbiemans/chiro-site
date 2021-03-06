@@ -26,13 +26,16 @@ export const Home = () => {
             </Row>
             <Row>
                 <Col lg={7} sm={10}>
+                    <Announcement title={'Update corona maatregelen - 6/03/2021'}
+                                  body={'Net zoals jullie hebben we gisteren naar de persconferentie gekeken, en hebben we gezien dat er versoepelingen aankomen, ook voor ons. We wachten nog heel even op de officiële richtlijnen van chiro nationaal voor we onze planning maken, maar we houden jullie op de hoogte! Meer info volgt zo snel mogelijk!'}
+                                  date={new Date(2021, 3, 6)}/>
                     <Announcement title={'Nieuwe website'}
                                   body={'Zoals u kan zien is onze site helemaal vernieuwd. Mocht u iets opmerken dat niet goed is, of dat ontbreekt mag u dat altijd laten weten aan een van de leiding.'}
-                                  date={new Date(2020,12,30)}/>
+                                  date={new Date(2020, 12, 30)}/>
                     <Announcement title={'Corona maatregelen'}
                                   body={'Zoals u weet is het leiding geven tijdelijk beperkt door de COVID maatregelen. Concreet betekent dit voor ons dat enkel de ' +
                                   '3 oudste afdelingen chiro hebben. De jongste leden hebben jammer genoeg - geen chiro.Ook vragen wij om ten alle tijde een mondmasker te dragen, en de social distancing te respecteren. '}
-                                  date={new Date(2021,1,6)}/>
+                                  date={new Date(2021, 1, 6)}/>
                 </Col>
                 <Col lg={1}/>
                 <Col lg={3} sm={0} className="pt-5 d-none d-lg-block">
