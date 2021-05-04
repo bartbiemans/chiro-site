@@ -26,6 +26,9 @@ export const Home = () => {
             </Row>
             <Row>
                 <Col lg={7} sm={10}>
+                    <Announcement title={'Update corona maatregelen - 4/05/2021'}
+                                  body={'Beste ouders en leden,Goed nieuws! De corona maatregelen laten ons toe om terug chiro te geven in groepen van 25 personen! Concreet betekent dit het volgende : De sloebers, bengels en kerels hebben chiro van 13-15u, en de rakkers,toppers en aspiranten hebben chiro van 16-18u. Dit btekent ook dat jullie jullie niet meer hoeven in te schrijven voor een zondag. Tot dan!'}
+                                  date={new Date(2021, 5, 4)}/>
                     <Announcement title={'Update corona maatregelen - 8/03/2021'}
                                   body={'Beste ouders en leden,Goed nieuws! De corona maatregelen laten ons toe om terug chiro te geven aan zowel de jongste als de oudste afdelingen. Lees hieronder even hoe dit concreet in zijn werking gaat : We gaan bij ons terug overschakelen op een systeem van 2 shiften. Dit om te voorkomen dat er teveel mensen van verschillende bubbels tegelijkertijd aankomen en vertrekken en zodat we meer speelruimte hebben.Shift 1 - 13:00 - 15:00 -> Deze shift komen de sloebers, bengels en de kerels.Shift 2 - 16:00 - 18:00 -> Deze shift komen de rakkers, toppers en aspirantenVoor de oudsten gelden nog steeds dezelfde maatregelen. Dit betekent dat jullie maximum met 10 tegelijkertijd chiro krijgen en altijd een mondmasker moeten dragen.Verder willen we ook vragen om de andere maatregelen nog steeds te respecteren. Dit betekent een mondmasker aanzetten als u uw kind komt afzetten of ophalen en uw kind een weekje thuis houden als hij symptomen vertoond of in contact is geweest met iemand die besmet is.Voor vragen of meer info kunnen jullie altijd bij de groepsleiding terecht. Wij kijken er alvast enorm naar uit!'}
                                   date={new Date(2021, 3, 8)}/>
