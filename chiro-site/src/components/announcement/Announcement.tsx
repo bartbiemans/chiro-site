@@ -5,6 +5,7 @@ interface Props{
     body:string;
     title?:string
     date:Date
+    link?:string
 }
 
 export const Announcement = (props: Props) => {
@@ -15,7 +16,8 @@ export const Announcement = (props: Props) => {
                    {props.title && <div><b className={'text-success'}>{props.title}</b> </div>}
                    <small> <i>Updated on : {props.date.toLocaleDateString()}</i></small>
                </div>
-               <p className={'mt-3'}>{props.body}</p>
+               <p className={'mt-3'}>{props.body}{props.link && <a href={props.link}>Via deze link kan u uw bestelling plaatsen!</a> }</p>
+
            </Col>
        </Row>
     )

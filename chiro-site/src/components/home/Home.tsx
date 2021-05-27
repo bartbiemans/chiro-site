@@ -26,6 +26,16 @@ export const Home = () => {
             </Row>
             <Row>
                 <Col lg={7} sm={10}>
+                    <Announcement title={'Soepverkoop'}
+                                  body={'Zitten jullie net als ons ook al zo hard af te tellen naar het kamp? Dan hebben wij daar de perfecte remedie voor!\n' +
+                                  'Vanaf vandaag kunnen jullie echte kamp-soep bestellen. Deze soep wordt volgens het authentieke recept van onze kookploeg gemaakt en doet u al even denken dat u op kamp bent!\n' +
+                                  'U kan een liter soep al aanschaffen voor 5€ en dit wel in 2 verschillende smaken, namelijk tomaten of groentesoep. Dit is zelfs inclusief levering aan huis. Over een goede deal gesproken!\n' +
+                                  'De opbrengst van deze verkoop wordt gebruikt om nieuwe tenten te kopen.U kan uw bestelling plaatsen tot en met vrijdag 04/06, dus wees er snel bij!'}
+                                  link={'https://docs.google.com/forms/d/e/1FAIpQLSe-xnNDFigmgB4U_MAC7iS6ZBFioBh4ej5_AB4lMCkHDPOMVQ/viewform?fbclid=IwAR0hRSuKYaaMeIPEoyIjfXdmtMglWCv6bF9UWG4JfeeLP8wpD7P78j81NOU'}
+                                  date={new Date(2021, 5, 4)}/>
+                    <Announcement title={'Update corona maatregelen - 27/05/2021'}
+                                  body={'Beste ouders en leden,Goed nieuws! Vanaf 6/06 mogen we terug volledige zondag chiro geven! Dan is het terug chiro vanaf 14-18u voor iedereen! Tot dan!'}
+                                  date={new Date(2021, 5, 27)}/>
                     <Announcement title={'Update corona maatregelen - 4/05/2021'}
                                   body={'Beste ouders en leden,Goed nieuws! De corona maatregelen laten ons toe om terug chiro te geven in groepen van 25 personen! Concreet betekent dit het volgende : De sloebers, bengels en kerels hebben chiro van 13-15u, en de rakkers,toppers en aspiranten hebben chiro van 16-18u. Dit btekent ook dat jullie jullie niet meer hoeven in te schrijven voor een zondag. Tot dan!'}
                                   date={new Date(2021, 5, 4)}/>
