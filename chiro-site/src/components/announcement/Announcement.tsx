@@ -17,7 +17,6 @@ export const Announcement = (props: Props) => {
                    <small> <i>Updated on : {props.date.toLocaleDateString()}</i></small>
                </div>
                <p className={'mt-3'}>{props.body}{props.link && <a href={props.link}>Via deze link kan u uw bestelling plaatsen!</a> }</p>
-
            </Col>
        </Row>
     )
