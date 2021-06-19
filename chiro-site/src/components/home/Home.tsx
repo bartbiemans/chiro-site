@@ -26,6 +26,10 @@ export const Home = () => {
             </Row>
             <Row>
                 <Col lg={7} sm={10}>
+                    <Announcement title={'De banier'}
+                                  body={'Dankzij de banier kunnen wij extra spel materiaal meenemen op kamp. Meer info over de banier vind u op de volgende link : '}
+                                  date={new Date(2021, 6, 19)}
+                    link={'https://www.debanier.be/'}/>
                     <Announcement title={'Soepverkoop'}
                                   body={'Zitten jullie net als ons ook al zo hard af te tellen naar het kamp? Dan hebben wij daar de perfecte remedie voor!\n' +
                                   'Vanaf vandaag kunnen jullie echte kamp-soep bestellen. Deze soep wordt volgens het authentieke recept van onze kookploeg gemaakt en doet u al even denken dat u op kamp bent!\n' +
