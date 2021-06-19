@@ -8,7 +8,7 @@ import {Col, Row } from "react-bootstrap";
 import Image from "react-bootstrap/Image";
 
 
-const brieven: string[] = ['Chironieuwsje.pdf','inschrijvings-formulier.pdf','Medische-steekkaart.pdf','kampboekje.pdf']
+const brieven: string[] = ['Chironieuwsje.pdf','inschrijvings-formulier.pdf','Medische-steekkaart.pdf','kampboekje.pdf','laatste-zondag.pdf']
 
 export const Brieven = () => {
 
